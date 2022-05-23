@@ -119,4 +119,5 @@ Além da sua familiaridade com XML, possui como principais características:
       <li><a href="https://rockcontent.com/br/blog/json/">O que é JSON</a>
       <li>  <a href="https://www.treinaweb.com.br/blog/o-que-e-yaml">O que é YAML</a></li>
   </li>
+  <li> <a href="https://developer.mozilla.org/en-US/docs/web/api/xmlserializer">XMLSerializer()</a></li> 
   </ul>
