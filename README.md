@@ -20,6 +20,10 @@
     
 <h2> O que é serialização e deserialização? Quando precisamos usar essa técnica?</h2>
 <h2>O que é e quais as regras do formato JSON?</h2>
+<p>
+JSON, que significa JavaScript Object Notation, é uma formatação utilizada para estruturar dados em formato de texto e transmiti-los de um sistema para outro, como em aplicações cliente-servidor ou em aplicativos móveis. Uma maneira de utilização é por meio de requisições AJAX, em que a aplicação recupera os dados armazenados no servidor de hospedagem sem a necessidade de recarregar a página.
+
+A especificação JSON surgiu por volta do ano 2000, mas só passou a fazer parte da linguagem JavaScript após o lançamento da versão 5 do ECMAScript. Atualmente, esse formato é suportado por diversos tipos de linguagem de programação, além de ser uma alternativa mais leve que o modelo XML.</p>
     
 <h2>Como podemos converter um objeto JS em JSON e vice-versa?</h2>
 <p>O método JSON.parse() analisa uma string JSON, construindo o valor ou um objeto JavaScript descrito pela string. Uma função reviver opcional pode ser fornecida para executar uma transformação no objeto que será retornado.</p>
@@ -61,5 +65,6 @@ console.log(text);
   <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify">JSON.stringify()</a>
     </li>
     <li><a href="XML Tutorial">Criando um XML</a>
+      <li><a href="https://rockcontent.com/br/blog/json/">O que é JSON</a>
   </li>
   </ul>
