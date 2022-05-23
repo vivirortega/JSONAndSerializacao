@@ -80,6 +80,7 @@ console.log(text);
 ```
 
 <h2>O que acontece quando serializamos objetos que tenham uma função dentro? Por quê?</h2>
+<p>A serialização não irá considerar o funcionamento das funções dentro do objeto, isso ocorre porque o processo de serialização nos casos mais simples são conversões para string, assim perdendo referência da função no código.</p>
 
 <h2>O que é XML? Como serializamos um objeto JS em XML?</h2>
 <p>O XML é uma linguagem de marcação, ou seja, um conjunto de regras utilizado para formatar documentos de maneira que os dados possam ser lidos e interpretados por diferentes sistemas. No Brasil, ficou popularizado por ser o tipo de arquivo mais utilizado na emissão de notas fiscais digitais.</p>
