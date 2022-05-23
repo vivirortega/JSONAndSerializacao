@@ -31,6 +31,33 @@ A especificação JSON surgiu por volta do ano 2000, mas só passou a fazer part
   <br>
 <b>valor: representa o conteúdo correspondente e pode conter os seguintes tipos de dados: string, array, object, number, boolean ou null.</b>
 </p>
+
+<b>Exemplo de sintaxe:</b>
+```
+"ano": 2022,
+"site": "www.github.com",
+"casado": true
+```
+
+<b>Exemplo de sintaxe com array de objetos:</b>
+
+``` 
+[ 
+  {
+    "nome": "Vitória", 
+    "idade": 25,
+    "site:" "www.github.com",
+    "casado": false
+  }, 
+  
+  {
+    "nome": "Vivi", 
+    "idade": 23,
+    "site:" "www.github.com",
+    "casado": true
+  }
+]
+```
     
 <h2>Como podemos converter um objeto JS em JSON e vice-versa?</h2>
 <p>O método JSON.parse() analisa uma string JSON, construindo o valor ou um objeto JavaScript descrito pela string. Uma função reviver opcional pode ser fornecida para executar uma transformação no objeto que será retornado.</p>
