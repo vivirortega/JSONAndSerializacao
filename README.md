@@ -19,6 +19,7 @@
     </ul>
     
 <h2> O que é serialização e deserialização? Quando precisamos usar essa técnica?</h2>
+<p>Serialização é o processo de transformar algum objeto em um formato de dados que pode ser restaurado mais tarde. As pessoas geralmente serializam objetos para salvá-los no armazenamento ou para enviar como parte das comunicações. A desserialização é o inverso desse processo – tomando dados estruturados a partir de algum formato e reconstruindo-o em um objeto. Hoje, o formato de dados mais popular para serializar dados é JSON. Antes disso, era XML.</p>
 <h2>O que é e quais as regras do formato JSON?</h2>
 <p>
 JSON, que significa JavaScript Object Notation, é uma formatação utilizada para estruturar dados em formato de texto e transmiti-los de um sistema para outro, como em aplicações cliente-servidor ou em aplicativos móveis. Uma maneira de utilização é por meio de requisições AJAX, em que a aplicação recupera os dados armazenados no servidor de hospedagem sem a necessidade de recarregar a página.
