@@ -87,7 +87,14 @@ console.log(text);
 
 <b>Exemplo de uma NF-e em XML:</b>
 <img src="https://www.espiaonfe.com.br/images/lab/xml-nfe-estrutura-exemplo.png"/>
-<p>Todo XML é constituido por tags que abrem e fecham como HTML.</p>
+<h2>Principais características</h2>
+<ul>
+  <li>Todo XML é constituido por tags que abrem e fecham como HTML.</li>
+  <li>Simplicidade e legibilidade, tanto para humanos quanto para computadores.</li>
+  <li>Possibilidade de criação de tags sem limitação.</li>
+  <li>Interligação com bancos de dados distintos</li>
+      </ul>
+
 
 
 <h2>O que é YAML? Como serializamos um objeto JS em YAML?</h2>
