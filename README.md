@@ -43,6 +43,11 @@ console.log(text);
 <h2>O que acontece quando serializamos objetos que tenham uma função dentro? Por quê?</h2>
 
 <h2>O que é XML? Como serializamos um objeto JS em XML?</h2>
+<p>O XML é uma linguagem de marcação, ou seja, um conjunto de regras utilizado para formatar documentos de maneira que os dados possam ser lidos e interpretados por diferentes sistemas. No Brasil, ficou popularizado por ser o tipo de arquivo mais utilizado na emissão de notas fiscais digitais.</p>
+
+<b>Exemplo de uma NF-e em XML:</b>
+<img src="https://www.espiaonfe.com.br/images/lab/xml-nfe-estrutura-exemplo.png"/>
+<p>Todo XML é constituido por tags que abrem e fecham como HTML.</p>
 
 
 <h2>O que é YAML? Como serializamos um objeto JS em YAML?</h2>
@@ -54,5 +59,7 @@ console.log(text);
     <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse">JSON.parse()</a>
   </li>
   <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify">JSON.stringify()</a>
+    </li>
+    <li><a href="XML Tutorial">Criando um XML</a>
   </li>
   </ul>
