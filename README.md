@@ -90,6 +90,22 @@ console.log(text);
 
 
 <h2>O que é YAML? Como serializamos um objeto JS em YAML?</h2>
+<p>Lançada em 2001 e inspirada em linguagens como XML, Python, C, entre outras, YAML ou, acrônimo recursivo para “YAML Ain’t Markup Language” é um formato de serialização de dados legível por humanos, sendo bastante utilizado para arquivos de configuração, assim como o JSON e o XML.</p>
+
+<h2>Principais características</h2>
+<ul>
+  <br>
+  <li>
+Além da sua familiaridade com XML, possui como principais características:
+  </li>
+
+<li>Utilizam um conjunto de caracteres unicode (UTF-8 ou UTF-16);</li>
+<li>Possui propósito centrado em dados no lugar de documentos marcados;</li>
+<li>Case sensitive;</li>
+<li>Pode ser utilizada por diversas linguagens;</li>
+<li>É mais legível que o XML e JSON;</li>
+<li>Possui uma excelente documentação, entre outros. </li>
+</ul>
 <h2>Compare um objeto serializado em JSON, XML e YAML</h2>
 <h2> Referências bibliográficas:</h2>
 <ul>
