@@ -106,7 +106,46 @@ Além da sua familiaridade com XML, possui como principais características:
 <li>É mais legível que o XML e JSON;</li>
 <li>Possui uma excelente documentação, entre outros. </li>
 </ul>
-<h2>Compare um objeto serializado em JSON, XML e YAML</h2>
+<h2>Compare um objeto serializado em JSON, XML e YAML:</h2>
+
+<h2>JSON:</h2>
+
+```
+{
+  "Prova de conceito": [
+    {
+      "nome": "Serializacao e Json",
+      "autor": "vitoria ortega",
+      "ano": 2022
+    }
+  ]
+}
+```
+
+<h2>XML</h2>
+
+
+```
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <Prova_de_conceito>
+    <nome>Serializacao e Json</nome>
+    <autor>vitoria ortega</autor>
+    <ano>2022</ano>
+  </Prova_de_conceito>
+</root>
+```
+
+<h2>YAML</h2>
+
+```
+root:
+  Prova_de_conceito:
+    nome: Serializacao e Json
+    autor: vitoria ortega
+    ano: '2022'
+```
+
 <h2> Referências bibliográficas:</h2>
 <ul>
   <li><a href="https://www.devmedia.com.br/json-tutorial/25275">Json Tutorial</a>
