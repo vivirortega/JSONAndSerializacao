@@ -117,5 +117,6 @@ Além da sua familiaridade com XML, possui como principais características:
     </li>
     <li><a href="XML Tutorial">Criando um XML</a>
       <li><a href="https://rockcontent.com/br/blog/json/">O que é JSON</a>
+      <li>  <a href="https://www.treinaweb.com.br/blog/o-que-e-yaml">O que é YAML</a></li>
   </li>
   </ul>
